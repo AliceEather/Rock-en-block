@@ -1,0 +1,22 @@
+
+body {background-color: lightgrey;}
+h1   {color: purple;font-family: arial;}
+h2   {color: plum; font-family: monospace;}
+p    {color: black; text-align: center;}
+
+
+header {
+  height: 400px;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-image: url(concert-rock.jpg);
+
+
+}
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
