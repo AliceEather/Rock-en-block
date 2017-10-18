@@ -1,19 +1,19 @@
 body {
   background: linear-gradient(to bottom, grey, black);
+  font-family: verdana, arial;
 }
 
-h1   {color: purple;font-family: arial;}
-h2   {color: plum; font-family: monospace;}
+h1   {color: #86f1e3; font-size: 50px}
+h2   {color: white ; font-size: 25px}
 p    {text-align: center;}
 
 #colonne1{
   float: none;
   width: 100%;
-  background: white;
+  background: black;
   padding: 10px;
   line-height:100%
-  position: absolute;
-  color: black;
+
 }
 
 .lateral{
@@ -39,10 +39,11 @@ p    {text-align: center;}
 
 
 header {
-  height: 400px;
+  height: 250px;
+  width: 100%;
   background-attachment: fixed;
   background-size: 100% 100%;
-  background-image: url(concert-rock.jpg);
+  background-image: url(concert-rock3.jpg);
 
 
 }
@@ -55,6 +56,18 @@ html, body
     margin: 0;
     padding: 0;
 }
+
+iframe {
+  height: 80px;
+  width: 250px;
+  margin:40px;
+
+}
+
+#musiques {
+  text-align: center;
+}
+
 
 .button {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -74,7 +87,7 @@ html, body
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
-	color:#666666;
+	color:#59bb98;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
@@ -100,5 +113,7 @@ html, body
 
 .recherche {
     position: relative;
+    float: right;
 	display: inline-block;
+
 }
