@@ -62,11 +62,11 @@ iframe {
   width: 250px;
   margin:40px;
 
-}
+} /* redimension de la taille des lecteurs*/
 
 #musiques {
   text-align: center;
-}
+} /* pour centrer les lecteurs dans la page*/
 
 
 .button {
@@ -95,7 +95,7 @@ iframe {
   margin: 8px 10px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
-}
+} /* copie d'un code pour forme bouton inactif*/
 .button:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
 	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
@@ -105,11 +105,11 @@ iframe {
 	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
 	background-color:#f6f6f6;
-}
+} /* forme quand on passe la souris sur le bouton*/
 .button:active {
 	position:relative;
 	top:1px;
-}
+} /* forme quand on clique dessus*/
 
 /*#barre_de_recherche {
   position: static;
