@@ -67,6 +67,11 @@ iframe {
 
 } /* redimension de la taille des lecteurs*/
 
+input {
+  line-height: 20px;
+  vertical-align: 100%;
+}
+
 #musiques, #hardrock {
   text-align: center;
 } /* pour centrer les lecteurs dans la page*/
