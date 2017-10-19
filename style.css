@@ -11,28 +11,28 @@ p    {text-align: center;}
   float: none;
   width: 100%;
   background: black;
-  padding: 10px;
+  padding: 0px;
   line-height:100%
-
 }
 
 .lateral{
   float: left;
   width: 20%;
+  height: 100%;
   background: black;
   padding: 10px;
-  height: 100%;
   position: absolute;
   margin-right: 10px;
   color: white;
+  overflow: visible;
 }
 
 .contenu{
   float: right;
-  width: 77%;
   background: linear-gradient(to bottom, grey, black);
   padding: 10px;
   height: 100%;
+  width: 77%;
   position: static;
   color: white;
 }
@@ -111,9 +111,15 @@ iframe {
 	top:1px;
 }
 
-.recherche {
-    position: relative;
-    float: right;
-	display: inline-block;
+/*#barre_de_recherche {
+  position: static;
+  float: right;
+}*/
 
+
+.recherche {
+  position: relative;
+  float: right;
+	display: inline-block;
+  vertical-align: middle;
 }
