@@ -3,33 +3,36 @@ body {
   font-family: verdana, arial;
 }
 
-h1   {color: #86f1e3; font-size: 50px}
-h2   {color: white ; font-size: 25px}
+h1   {color: #86f1e3; font-size: 50px; padding-left: 2%}
+h2   {color: white ; font-size: 20px; padding-left: 5%}
+h3   {color: #86f1e3; font-size: 30px; padding-left: 2%}
+h4   {color: white ; font-size: 20px ; text-align: center;}
 p    {text-align: center;}
 
 #colonne1{
   float: none;
-  width: 100%;
+  width: 75%;
   background: black;
-  padding: 0px;
-  line-height:100%
+  padding-left: 25%;
+  line-height:100%;
+  margin-right: 50%;
 }
 
 .lateral{
   float: left;
-  width: 20%;
+  width: 22%;
   height: 100%;
   background: black;
-  padding: 10px;
-  position: absolute;
-  margin-right: 10px;
+  padding: 0px;
+  position: fixed;
+  margin-right: 0px;
   color: white;
   overflow: visible;
 }
 
 .contenu{
   float: right;
-  background: linear-gradient(to bottom, grey, black);
+  background: linear-gradient(to bottom, #2E2E2E, black);
   padding: 10px;
   height: 100%;
   width: 77%;
@@ -64,7 +67,7 @@ iframe {
 
 } /* redimension de la taille des lecteurs*/
 
-#musiques {
+#musiques, #hardrock {
   text-align: center;
 } /* pour centrer les lecteurs dans la page*/
 
@@ -110,11 +113,6 @@ iframe {
 	position:relative;
 	top:1px;
 } /* forme quand on clique dessus*/
-
-/*#barre_de_recherche {
-  position: static;
-  float: right;
-}*/
 
 
 .recherche {
