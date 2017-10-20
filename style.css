@@ -62,17 +62,22 @@ html, body
 
 iframe {
   height: 80px;
-  width: 250px;
+  width: 280px;
   margin:40px;
 
 } /* redimension de la taille des lecteurs*/
+
+#nouveau iframe {
+  width: 250px;
+  margin-left: 8px;
+}
 
 input {
   line-height: 20px;
   vertical-align: 100%;
 }
 
-#musiques, #hardrock {
+#musiques{
   text-align: center;
 } /* pour centrer les lecteurs dans la page*/
 
