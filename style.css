@@ -4,6 +4,7 @@ html {
 
 html, body
 {
+
     margin: 0;
     padding: 0;
 }
@@ -16,7 +17,7 @@ body {
 h1   {color: #86f1e3; font-size: 50px; padding-left: 2%}
 h2   {color: white ; font-size: 20px; padding-left: 5%}
 h3   {color: #86f1e3; font-size: 30px; padding-left: 2%}
-h4   {color: white ; font-size: 20px ; text-align: center;}
+h4   {color: white ; font-size: 20px ; text-align: center; margin-top: 50px}
 p    {text-align: center;}
 
 
@@ -52,6 +53,23 @@ p    {text-align: center;}
   color: white;
 }
 
+
+#search {
+  float: right;
+	display: inline-block;
+  background: black;
+  border: 0;
+  vertical-align: middle;
+
+}
+
+#barre {
+  float : right;
+  margin-right: 10px;
+
+}
+
+
 header {
   height: 250px;
   width: 100%;
@@ -79,7 +97,8 @@ iframe {
 
 input {
   line-height: 20px;
-  vertical-align: 100%;
+  vertical-align: middle;
+
 }
 
 #musiques{
@@ -114,6 +133,7 @@ input {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
 } /* copie d'un code pour forme bouton inactif*/
+
 .button:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
 	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
@@ -124,15 +144,13 @@ input {
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
 	background-color:#f6f6f6;
 } /* forme quand on passe la souris sur le bouton*/
+
 .button:active {
 	position:relative;
 	top:1px;
 } /* forme quand on clique dessus*/
 
+nav {
+  display: inline;
 
-.recherche {
-  position: relative;
-  float: right;
-	display: inline-block;
-  vertical-align: middle;
 }

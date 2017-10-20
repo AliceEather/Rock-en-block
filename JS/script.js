@@ -24,4 +24,10 @@ $('#search').on("click",function() {
 
     filterMusic('New', '#nouveau');
 
+
+$(".cacher").click(function(){
+  $("genrepix").hide();
+
+});
+
 });
