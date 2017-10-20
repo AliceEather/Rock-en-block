@@ -1,3 +1,13 @@
+html {
+  background: white;
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
 body {
   background: linear-gradient(to bottom, grey, black);
   font-family: verdana, arial;
@@ -8,6 +18,7 @@ h2   {color: white ; font-size: 20px; padding-left: 5%}
 h3   {color: #86f1e3; font-size: 30px; padding-left: 2%}
 h4   {color: white ; font-size: 20px ; text-align: center;}
 p    {text-align: center;}
+
 
 #colonne1{
   float: none;
@@ -28,6 +39,7 @@ p    {text-align: center;}
   margin-right: 0px;
   color: white;
   overflow: visible;
+  background-image: url(images/manche.jpg)
 }
 
 .contenu{
@@ -40,25 +52,18 @@ p    {text-align: center;}
   color: white;
 }
 
-
 header {
   height: 250px;
   width: 100%;
   background-attachment: fixed;
   background-size: 100% 100%;
-  background-image: url(concert-rock3.jpg);
-
-
-}
-html {
-  background: white;
+  background-image: url(images/concert-rock3.jpg);
 }
 
-html, body
-{
-    margin: 0;
-    padding: 0;
+.genrepix {
+  text-align: center;
 }
+
 
 iframe {
   height: 80px;
